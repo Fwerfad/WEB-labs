@@ -1,0 +1,111 @@
+body{
+    font-family: "Arial", sans-serif;
+}
+::placeholder{
+    color:white
+}
+img {
+    display: block;
+    height: auto;
+}
+.headerText{
+}
+.input-group>.input-group-prepend {
+    flex: 0 0 30%;
+}
+.input-group .input-group-text {
+    width: 100%;
+}
+.intro {
+    background: no-repeat url("../img/background.png") center;
+    height: auto;
+    color:white;
+}
+.introHeader{
+    font-size: 50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    box-sizing: content-box;
+}
+.introInfo{
+    font-size: 20px;
+    padding: 2px;
+    max-width: 1000px;
+    box-sizing: content-box;
+}
+.headerNav{
+    margin-top:40px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.headerNavText{
+    margin-top: 40px;
+    margin-left:5px;
+    margin-right:5px;
+    position: relative;
+    top:-40px;
+}
+.announcementText{
+    font-size:16px;
+}
+.announcementText h1{
+    font-size:20px;
+    margin-top:20px;
+}
+
+.announcementArrow1{
+    display: inline-block;
+    position:relative;
+    top:-100px;
+    left:-100px;
+}
+.announcementArrow2{
+    display: inline-block;
+    position:relative;
+    top:-100px;
+    left:1100px;
+}
+
+.announcementBoxes{
+    text-align: center;
+}
+.announcementBox{
+    display: inline-block;
+    margin: 10px;
+    padding:5px;
+    border: 1px solid darkgray;
+}
+.announcementBox:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+.announcementRedText {
+    margin:20px;
+    color: red;
+    font-size:26px;
+    text-align: center;
+}
+.loneArrow{
+    margin: 50px;
+}
+.redLine{
+    min-width: 300px;
+}
+.arr{
+    position:relative;
+    top:100px;
+}
+.bottom{
+    margin-top:20px;
+}
+.helper{
+    font-size:10px;
+    position: relative;
+    top:-10px;
+}
+.mainbottom{
+    margin-top:20px;
+    background-color:#2D2D2D;
+    max-width: 1920px;
+    height:auto;
+    color:white
+}

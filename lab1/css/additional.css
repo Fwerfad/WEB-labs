@@ -1,0 +1,60 @@
+.navbar-brand {
+    font-size: 24px;
+    color: ivory;
+}
+
+.navbar-brand:hover {
+    color: silver;
+}
+
+.bg-red {
+    background: linear-gradient(to bottom, #b22222, crimson)!important;
+}
+
+a.bg-red:focus, a.bg-red:hover, button.bg-red:focus, button.bg-dark:hover {
+    background-color: #1d2124 !important
+}
+
+.intro {
+    background: no-repeat url(../img/int.jpg) center;
+    height: 600px;
+}
+
+.mainlink {
+    text-align: center;
+}
+
+.mainlink-item {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    text-align: center;
+}
+
+.mainlink-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.mainlink-item:hover{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.intro-text {
+    margin: auto 0;
+}
+
+.intro-text h1 {
+    font-size: 4vw;
+    text-shadow: -2px -2px 2px rgba(255,255,255,0.2), 2px 2px 2px rgba(255,255,255,0.2), 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+a {
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgba(255, 176, 172, 0.25);
+    box-shadow: 0 .3rem .7rem rgba(0,0,0,.15) !important;
+}

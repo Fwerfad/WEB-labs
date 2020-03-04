@@ -1,0 +1,131 @@
+
+@media screen and (min-width: 0px) and (max-width: 650px) {
+    .headerText{
+        font-size: 8px;
+    }
+    img {
+        max-width: 60%;
+    }
+    .navtool{
+        font-size:10px;
+    }
+    .announcementArrow2{
+        display: inline-block;
+        position:relative;
+        top:-100px;
+        left:-100px;
+    }
+    .announcementArrow1{
+        display: inline-block;
+        position:relative;
+        top:-100px;
+        left:-100px;
+    }
+    .quotesText{
+        font-size:6px;
+    }
+    .bottom{
+        font-size:6px;
+    }
+    .helper{
+        font-size: 3px;
+    }
+    .arr{
+        top:20px;
+    }
+    .bottom2{
+        position: relative;
+        top:-10px;
+    }
+    .headerNavText{
+        font-size:10px;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1000px) {
+    .headerText{
+        font-size: 8px;
+    }
+    img {
+        max-width: 70%;
+    }
+    .navtool{
+        font-size:10px;
+    }
+    .announcementArrow2{
+        display: inline-block;
+        position:relative;
+        top:-100px;
+        left:670px;
+    }
+    .announcementArrow1{
+        display: inline-block;
+        position:relative;
+        top:-100px;
+        left:-30px;
+    }
+    .quotesText{
+        font-size:10px;
+    }
+    .bottom{
+        font-size:10px;
+    }
+    .helper{
+        font-size: 5px;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1250px) {
+    .headerText{
+        font-size: 14px;
+    }
+    img {
+        max-width: 80%;
+    }
+    .navtool{
+        font-size:10px;
+    }
+    .announcementArrow2{
+        display: inline-block;
+        position:relative;
+        top:-100px;
+        left:950px;
+    }
+    .announcementArrow1{
+        display: inline-block;
+        position:relative;
+        top:-100px;
+        left:-40px;
+    }
+    .quotesText{
+        font-size:12px;
+    }
+    .bottom{
+        font-size:12px;
+    }
+    .helper{
+        font-size: 6px;
+    }
+}
+@media screen and (min-width: 1251px) and (max-width: 1600px) {
+    .headerText{
+        font-size: 18px;
+    }
+    img {
+        max-width: 90%;
+    }
+    .announcementArrow1{
+        display: inline-block;
+        position:relative;
+        top:-100px;
+        left:-50px;
+    }
+    .quotesText{
+        font-size:16px;
+    }
+    .bottom{
+        font-size:16px;
+    }
+    .helper{
+        font-size: 8px;
+    }
+}
