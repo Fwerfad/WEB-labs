@@ -12,14 +12,23 @@ const object3 = {
 	name: 'Rex',
 	weight: 20,
 };
-function isEquivalent(obj1, obj2) {
-	if (obj1.name === obj2.name) {
-		if (obj2.weight === obj2.weight) {
-			return true
+function isEquivalent(a, b) {
+	var aProps = Object.getOwnPropertyNames(a);
+	var bProps = Object.getOwnPropertyNames(b);
+	console.log(aProps)
+	console.log(bProps)
+	if (aProps.length != bProps.length) {
+		return false;
+	}
+	for (var i = 0; i < aProps.length; i++) {
+		var propName = aProps[i];
+		if (a[propName] !== b[propName]) {
+			return false;
 		}
 	}
-	return false
+	return true;
 }
+
 // Реализуйте функцию isEquivalent
 
 console.log(isEquivalent(object1, object2)); // true
