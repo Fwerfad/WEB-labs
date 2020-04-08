@@ -15,8 +15,6 @@ const object3 = {
 function isEquivalent(a, b) {
 	var aProps = Object.getOwnPropertyNames(a);
 	var bProps = Object.getOwnPropertyNames(b);
-	console.log(aProps)
-	console.log(bProps)
 	if (aProps.length != bProps.length) {
 		return false;
 	}
