@@ -1,13 +1,7 @@
 function User(name) {
 	this.name = name;
-	function getName() {
-		return name
-	}
-	return {
-		getName : getName
-	}
 }
-
+User.prototype.getName = function() {return this.name};
 // Допишите код здесь, чтобы программа вывела на консоль ожидаемый результат
 
 const me = new User('Rex');
