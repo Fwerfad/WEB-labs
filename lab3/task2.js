@@ -1,5 +1,5 @@
 // Реализуйте функцию sum
-function sum(array) {
+function sum() {
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
     return this.reduce(reducer)
 }
