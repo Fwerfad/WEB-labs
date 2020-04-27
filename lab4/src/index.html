@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab4</title>
+    <style type="text/css">
+        .divTab { width: 100%; padding: 0px; margin: 0 auto;  }
+        .tabs { width: 100%; padding: 0px; margin: 0 auto; }
+        .tabs>div {
+            display: none;
+            padding: 12px;
+            border: 1px solid #C0C0C0;
+            background: #FFFFFF;
+        }
+        .tabName {
+            display: inline-block;
+            padding: 7px;
+            margin: 0 -5px -1px 0;
+            text-align: center;
+            color: #4855ca;
+            font-family:"Comic Sans MS", Georgia, Serif;
+            border: 1px solid #C0C0C0;
+            margin-top: 30px;
+            background: #E0E0E0;
+            cursor: pointer;
+        }
+        .active  {
+            color: #000000;
+            font-family:"Comic Sans MS", Georgia, Serif;
+            font-size: large;
+            border: 1px solid #C0C0C0;
+            /*border-bottom: 1px solid #FFFFFF;*/
+            background: #FFFFFF;
+            text-align: center;
+        }
+    </style>
+</head>
+<script  src= "../dist/bundle.js"  ></script>
+<body>
+<nav>
+    <div id="mainTab" role="tablist" class="divTab">
+        <a id="homeTab" data-toggle="tab" href="#app" role="tab" class="tabName">Home</a>
+        <a id="pokemonTab" data-toggle="tab" href="#app" role="tab" class="tabName">Pokemon</a>
+    </div>
+</nav>
+
+<div id="app" role="tabpanel" class="active">
+
+</div>
+
+</div>
+</body>
+</html>
